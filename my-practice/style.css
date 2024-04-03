@@ -25,3 +25,9 @@ h3{
 .site-intro{
     font-size: 1.25rem;
 }
+/**********************CONTACT FORM STYLES*********/
+form ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+/***************************/
