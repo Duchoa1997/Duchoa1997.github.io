@@ -46,7 +46,7 @@ textarea{
 /***************************/
 /*******Navigation Style******/
 nav{
-    background-color: #A29E9C;
+    background-color: #c76230;
     padding:1em
 }
 nav ul{
@@ -69,7 +69,7 @@ nav a:hover{
     color: black;
 }
 nav a:visited{
-    color:#A29E9C;
+    color:#1815d4;
 }
 nav a:active{
     color:#BC4053;
