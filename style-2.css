@@ -46,7 +46,7 @@ textarea{
 /***************************/
 /*******Navigation Style******/
 nav{
-    background-color: #c76230;
+    background-color: #e3ee81;
     padding:1em
 }
 nav ul{
@@ -62,7 +62,7 @@ nav li{
 } 
 nav a{
     text-decoration: none;
-    color: #c7156b;
+    color: #e60773;
 }
 nav a:hover{
     text-decoration: underline;
