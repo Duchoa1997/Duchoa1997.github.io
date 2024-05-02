@@ -58,6 +58,7 @@ nav li{
     display: inline;
     padding: 0 10pt; /*0 padding on top and bottom, 10pt left and right*/
     text-transform: uppercase;
+    font-weight: bold;
     letter-spacing: 0.1rem;
 } 
 nav a{
