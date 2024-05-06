@@ -32,6 +32,7 @@ nav a:active{
 header, main{/** changed because of body margin 0**/
     margin:0 1em;
 }
+
 /**********************CONTACT FORM STYLES*********/
 form ul {
     list-style-type: none;
@@ -48,3 +49,4 @@ textarea{
     font: 1em san-serif;
     width: 300px;    
 }
+/**********
