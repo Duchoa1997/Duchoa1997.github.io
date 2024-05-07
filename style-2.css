@@ -67,6 +67,13 @@ body{
 .introduction p{
     line-height: 2;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.introduction img{
+    border-radius: 4px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /**********************CONTACT FORM STYLES*********/
