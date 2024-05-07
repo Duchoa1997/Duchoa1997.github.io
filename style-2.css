@@ -83,14 +83,20 @@ form ul {
 }
 label{
     display: inline-block;
-    min-width: 90px;
+    width: 90px;
     text-align: right;
 }
-textarea{
-    border: 3px solid #092;
+input,textarea{
     font: 1em san-serif;
     width: 300px;    
+    padding:.25em;
 }
 img {
     border-radius: 50%;
+}
+form li{
+    margin-bottom: 1em;
+}
+textarea{
+    vertical-align: top;
 }
