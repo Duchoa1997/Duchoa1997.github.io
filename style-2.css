@@ -4,6 +4,10 @@
 body{
     background-color: rgb(151, 208, 208);
 }
+header,main,footer{
+    margin: auto;
+    max-width:800px ;
+}
 .h1 {
     font-family:Arial, Helvetica, sans-serif ;
     width: 90%;
