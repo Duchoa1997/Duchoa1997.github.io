@@ -1,3 +1,22 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    background-color: rgb(151, 208, 208);
+}
+.h1 {
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    color:#970606;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .navbar{
     list-style: none;
     background-color: rgb(52, 23, 58);
@@ -34,9 +53,6 @@
 }
 .navbar a:active{
     background-color: #e1096a;
-}
-h1{
-    text-align: center;
 }
 .center {
     display: block;
