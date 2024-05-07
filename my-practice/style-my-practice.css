@@ -1,7 +1,10 @@
 /************Hoa Nguyen, MCC, 3/6/2024************/
 *{
     font-family: Georgia, Times, "Times New Roman", serif;   
+    box-sizing: border-box;
+    background: #9ee6a2; 
 }
+
 body{
     line-height: 1.5;
 }
