@@ -1,36 +1,29 @@
-/*******Navigation Style******/
-nav{
-    background-color: #e8eb2d;
-    padding:1em
-}
-nav ul{
-    padding-left: 0;
-    list-style-type: none;
+
+h1{
     text-align: center;
 }
-nav li{
-    display: inline;
-    padding: 0 10pt; /*0 padding on top and bottom, 10pt left and right*/
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-} 
-nav a{
+.navbar{
+    list-style: none;
+    background-color: rgb(52, 23, 58);
+    margin: 0px;
+    padding: 0px;
+}
+.navbar a{
+    color: antiquewhite;
     text-decoration: none;
-    color: #64073d;
+    padding: 15px;
+    display: block;
+    text-align: center;
 }
-nav a:hover{
+.navbar a:hover{
     text-decoration: underline;
-    color: rgb(235, 22, 182);
+    color:rgb(192, 232, 32);
 }
-nav a:visited{
-    color:#1815d4;
+.navbar a:visited{
+    color:blue;
 }
-nav a:active{
-    color:#BC4053;
-}
-header, main{/** changed because of body margin 0**/
-    margin:0 1em;
+.navbar a:active{
+    background-color: #1c1e14;
 }
 /**********************CONTACT FORM STYLES*********/
 form ul {
