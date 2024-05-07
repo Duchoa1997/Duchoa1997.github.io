@@ -7,7 +7,7 @@
 .navbar ul{
     list-style-type: none;
     text-align: center;
-    margin:0;
+    margin: 1rem;
     padding: 0;
     overflow: hidden;
 }
@@ -22,7 +22,7 @@
     color: antiquewhite;
     text-decoration: none;
     padding: 15px;
-    display: block;
+    display: inline;
     text-align: center;
 }
 .navbar a:hover{
@@ -33,7 +33,16 @@
     color:blue;
 }
 .navbar a:active{
-    background-color: #1c1e14;
+    background-color: #e1096a;
+}
+h1{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /**********************CONTACT FORM STYLES*********/
