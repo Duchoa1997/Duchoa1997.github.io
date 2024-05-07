@@ -48,7 +48,7 @@ body{
     color:rgb(192, 232, 32);
 }
 .navbar a:visited{
-    color:blue;
+    color:rgb(213, 231, 196);
 }
 .navbar a:active{
     background-color: #e1096a;
