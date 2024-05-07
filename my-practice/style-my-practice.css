@@ -2,9 +2,54 @@
 *{
     font-family: Georgia, Times, "Times New Roman", serif;   
     box-sizing: border-box;
-    background: #9ee6a2; 
+    background: #97d0d0; 
 }
-
+.navbar{
+    list-style: none;
+    background-color: rgb(52, 23, 58);
+    margin: 0px;
+    padding: 1em;
+}
+.navbar ul{
+    font-family:Arial, Helvetica, sans-serif ;
+    list-style-type: none;
+    text-align: center;
+    margin: 1rem;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar ul{
+    font-family:Arial, Helvetica, sans-serif ;
+    list-style-type: none;
+    text-align: center;
+    margin: 1rem;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar li {
+    display: inline;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.navbar a{
+    color: rgb(119, 6, 6);
+    text-decoration: none;
+    padding: 15px;
+    display: inline;
+    text-align: center;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color:rgb(192, 232, 32);
+}
+.navbar a:visited{
+    color:rgb(240, 165, 198);
+}
+.navbar a:active{
+    background-color: #e1096a;
+}
 body{
     line-height: 1.5;
 }
