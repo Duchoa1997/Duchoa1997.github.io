@@ -63,10 +63,13 @@ header,main,footer{
     margin-right: auto;
     width: 50%;
 }
+
 .introduction h2{
     font-family:Arial, Helvetica, sans-serif ;
     color:#970606;
     text-align: center;
+    font-size: 30px;
+    line-height: 2;
 }
 .introduction p{
     line-height: 2;
@@ -74,10 +77,9 @@ header,main,footer{
     font-size: 30px;
 }
 .introduction img{
-    border-radius: 4px;
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 4%;
+    padding: 5px;
+    width : 100%;
 }
 .a1 link{
     color:red;
@@ -133,28 +135,39 @@ textarea{
     vertical-align: top;
 }
 /**************HTML AND CSS BADGE GALLERY*********/
-#badge-gallery1{
+#badge-gallery1, #badge-gallery2{
     margin: top;
 }
-#badge-gallery1 img{
+#badge-gallery1, #badge-gallery2 img{
     display: block;
     width: 100%;
     margin-top: 9px;
+    border-radius: 8px;
+    
 }
 @media (min-width: 500px){
-    #badge-gallery1{
+    #badge-gallery1, #badge-gallery2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 6px;
-
         margin-top: 0;
     }
 }
 @media (min-width: 900px){
-    #badge-gallery1{
+    #badge-gallery1, #badge-gallery2{
         grid-template-columns: repeat(3, 1fr);
         width: 900px;
         margin: auto;
     }
-
+}
+.project-card h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:#970606;
+   
+}
+.project-card p{
+    line-height: 2rem;
+}
+.project-card img{
+    border-radius: 8px;
 }
