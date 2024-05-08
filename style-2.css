@@ -138,9 +138,9 @@ textarea{
 #badge-gallery1, #badge-gallery2{
     margin: top;
 }
-#badge-gallery1, #badge-gallery2 img{
+#badge-gallery1 img, #badge-gallery2 img{
     display: block;
-    width: 100%;
+    width: 200px;
     margin-top: 9px;
     border-radius: 8px;
     
