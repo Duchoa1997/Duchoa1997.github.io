@@ -1,5 +1,5 @@
 *{
-    
+   
 }
 body{
     background-color: #97d0d0;
@@ -131,4 +131,30 @@ form li{
 }
 textarea{
     vertical-align: top;
+}
+/**************HTML AND CSS BADGE GALLERY*********/
+#badge-gallery1{
+    margin: top;
+}
+#badge-gallery1 img{
+    display: block;
+    width: 100%;
+    margin-top: 9px;
+}
+@media (min-width: 500px){
+    #badge-gallery1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 6px;
+
+        margin-top: 0;
+    }
+}
+@media (min-width: 900px){
+    #badge-gallery1{
+        grid-template-columns: repeat(3, 1fr);
+        width: 900px;
+        margin: auto;
+    }
+
 }
